@@ -1,6 +1,15 @@
 {
-  "devDependencies": {
-    "cssnano": "^5.0.12",
-    "postcss": "^8.4.4"
-  }
+    "scripts": {
+        "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+    },
+    "devDependencies": {
+        "cssnano": "^5.0.12",
+        "postcss": "^8.4.4"
+    },
+    "name": "web-nav",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/zanyfly/web-nav.git",
+    "author": "ivanzeng <zanyfly@126.com>",
+    "license": "MIT"
 }
