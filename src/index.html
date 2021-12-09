@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>web Nav</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <form class="searchContainer" action="https://www.google.com.hk/search" method="get" target="_blank">
+            <input type="text" name="q" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+
+    </header>
+    <main class="main"> 
+        <ul class="sitelist">
+            <li class="last">
+                <div class="addbutton">
+                    <div class="logo">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="link">add</div>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_2992740_b1afs7tni5p.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
